@@ -92,11 +92,19 @@ PHP code SHOULD follow [PSR-1][] and [PSR-2][] style guidelines. WordPress proje
 PHP files should be indented using four-space indents.
 
 
+## Thanks
+[Isobar Front-end Code Standards][isobar] and TMW Unlimited's [Front-End Dev guidelines][tmw] were a great help in putting this together, thanks for making those public.
 
 ## License
 
 <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ideasonpurpose.com" property="cc:attributionName" rel="cc:attributionURL">Ideas On Purpose</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
 
+## About
+
+[![iop_logo](https://cloud.githubusercontent.com/assets/8320/9443542/944a8bce-4a4f-11e5-9d2f-54999b1687d5.png)][iop]  
+An [Ideas On Purpose][iop] project.
+
+[iop]: http://ideasonpurpose.com
 
 
 
@@ -109,3 +117,5 @@ PHP files should be indented using four-space indents.
 [psr-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 [psr-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [wpcode]: https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/
+[isobar]: http://isobar-idev.github.io/code-standards/#css_css_best_practices
+[tmw]: http://tech.tmw.co.uk/code/TMW-frontend-guidelines
