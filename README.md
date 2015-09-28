@@ -18,14 +18,16 @@ Finally, this is a living document. Technology advances very quickly, especially
 
 This document loosely adheres to common requirement keywords as defined in [RFC 2119][2119].
 
-MUST, REQUIRED
-: We need you to do these.
+<dl><dt>MUST, REQUIRED</dt>
+<dd>We need you to do these.</dd>
 
-SHOULD, RECOMMENDED
-: Practices we strongly recommend. This could be understood as "strongly prefers". Please let us know if you will be 
+<dt>SHOULD, RECOMMENDED</dt>
+<dd>Practices we strongly recommend. This could be understood as "strongly prefers". Please let us know if you will be doing something different. </dd>
 
-MAY, OPTIONAL
-: We really like these things and believe projects would benefit from following them.
+<dt>MAY, OPTIONAL</dt>
+<dd>We really like these things and believe projects would benefit from following them.</dd>
+
+</dl>
 
 ## Git and Source Code Management
 Git is REQUIRED for source code management and version control. Developers will be granted access to a project repository hosted on GitHub.
@@ -40,10 +42,15 @@ Compiled code and build output SHOULD be committed separately from other code ch
 ## Coding Standards
 
 Files SHOULD be indented with spaces, NOT tabs. 
+
 Files MUST NOT mix tabs and spaces.
+
 Files SHOULD use UTF-8 encoding.
+
 Files SHOULD use Unix (LF) line endings.
+
 Trailing whitespace SHOULD be removed (syntax exceptions: Markdown, YAML)
+
 Line length SHOULD be 80 characters or less. 
 
 
