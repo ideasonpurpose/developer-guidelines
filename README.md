@@ -131,7 +131,7 @@ An [Ideas On Purpose][iop] project.
 
 [iop]: http://ideasonpurpose.com
 
-[editorconfig]: https://github.com/ideasonpurpose/iop-developer-guidelines/blob/master/.editorconfig
+[editorconfig]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/.editorconfig
 [2119]: http://www.ietf.org/rfc/rfc2119.txt
 
 [babel]: http://babeljs.io
