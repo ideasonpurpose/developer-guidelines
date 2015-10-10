@@ -85,7 +85,7 @@ JavaScript code **SHOULD** be indented using two-space indents.
 
 JavaScript code **SHOULD** use semicolons.
 
-JavaScript code **SHOULD** run in strict mode and **SHOULD NOT** display errors, warnings or messages in the console.
+JavaScript code **SHOULD** run in [strict mode][] and **SHOULD NOT** display errors, warnings or messages in the console.
 
 **OPTIONALLY** use a transpiler like [Babel][] with ES6 syntax. *(Seriously, it's awesome.) *
 
@@ -137,6 +137,7 @@ An [Ideas On Purpose][iop] project.
 [babel]: http://babeljs.io
 [airbnb5]: https://github.com/airbnb/javascript/tree/master/es5
 [airbnb6]: https://github.com/airbnb/javascript
+[strict mode]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode
 [jsdoc]: http://usejsdoc.org/about-getting-started.html
 
 [github-css]: http://primercss.io/guidelines/#scss
