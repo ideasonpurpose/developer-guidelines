@@ -46,7 +46,7 @@ Libraries and dependencies **SHOULD NOT** be committed to the project repository
 
 ## Coding Standards
 
-Files **SHOULD** be indented with spaces, NOT tabs. 
+Files **SHOULD** be indented with spaces, **NOT** tabs. 
 
 Files **MUST NOT** mix tabs and spaces.
 
@@ -87,7 +87,7 @@ JavaScript code **SHOULD** use semicolons.
 
 JavaScript code **SHOULD** run in [strict mode][] and **SHOULD NOT** display errors, warnings or messages in the console.
 
-**OPTIONALLY** use a transpiler like [Babel][] with ES6 syntax. *(Seriously, it's awesome.) *
+**OPTIONALLY** use a transpiler like [Babel][] with ES2015+ syntax.
 
 **OPTIONALLY** use [JSDoc][] compatible doc blocks.
 
