@@ -61,7 +61,7 @@ Lines more than 80 characters long **SHOULD** be avoided. ([js][crockford80], [p
 
 
 
-Modern tooling makes it easy to deliver clean, appropriately formatted code. Please consider using IOP's [`.editorconfig`][editorconfig] file as a starting point, most of the coding rules in this document are included in that file.
+Modern tooling makes it easy to deliver clean, appropriately formatted code. Please consider using IOP’s [`.editorconfig`][editorconfig] file as a starting point, most of the coding rules in this document are included in that file.
 
 IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][] and [phpcs][]. 
 
@@ -111,6 +111,13 @@ PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPres
 PHP files **SHOULD** be indented using four-space indents.
 
 
+## Metadata, Analytics and Social Sharing
+
+Public-facing HTML pages **MUST** include page-specific metadata. [IOP’s recommended metadata block][iop metadata] assigns page properties for the [Open Graph Protocol][ogp] and [Twitter Cards][].
+
+HTML pages **SHOULD** collect analytics data. IOP will provide code snippets on a per-project basis. 
+
+
 
 ## Configuration and dotfiles
 
@@ -148,6 +155,10 @@ An [Ideas On Purpose][iop] project.
 [codeguide-css]: http://codeguide.co/#css
 [html5]: http://www.w3.org/TR/html5/syntax.html#the-doctype
 [Idiomatic CSS]: https://github.com/necolas/idiomatic-css
+
+[iop metadata]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/metadata/iop_html_metadata.html
+[ogp]: http://opengraphprotocol.org/
+[twitter cards]: https://dev.twitter.com/cards/overview
 
 [isobar]: http://isobar-idev.github.io/code-standards/#css_css_best_practices
 [tmw]: http://tech.tmw.co.uk/code/TMW-frontend-guidelines
