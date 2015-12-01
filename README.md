@@ -115,7 +115,7 @@ PHP files **SHOULD** be indented using four-space indents.
 
 Public-facing HTML pages **MUST** include page-specific metadata. [IOP’s recommended metadata block][iop metadata] assigns page properties for the [Open Graph Protocol][ogp] and [Twitter Cards][].
 
-HTML pages **SHOULD** collect analytics data. IOP will provide code snippets on a per-project basis. 
+Public-facing projects **SHOULD** collect analytics data. IOP will provide code snippets on a per-project basis. 
 
 
 
