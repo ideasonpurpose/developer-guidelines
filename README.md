@@ -76,6 +76,8 @@ HTML files **SHOULD** be formatted consistently with either two-space or four-sp
 
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s HTML recommendations.
 
+Image tags **MUST** include alt-text attributes.
+
 
 ## JavaScript
 
@@ -109,6 +111,14 @@ Use of CSS preprocessors is **OPTIONAL**. IOP **RECOMMENDS** Sass over Less.
 PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPress projects **MAY** choose to use  [WordPress coding standards][wpcode] instead.
 
 PHP files **SHOULD** be indented using four-space indents.
+
+## File naming
+
+IOP **RECOMMENDS** descriptive, self-documenting filenames.
+
+Filenames containing multiple words **SHOULD** be joined with [dashes (hyphens), not underscores][-_].
+
+Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` not `bldg-1.jpg`)
 
 
 ## Metadata, Analytics and Social Sharing
@@ -170,3 +180,5 @@ An [Ideas On Purpose][iop] project.
 
 [eslint]: http://eslint.org
 [phpcs]: http://www.squizlabs.com/php-codesniffer
+
+[-_]: https://www.mattcutts.com/blog/dashes-vs-underscores/
