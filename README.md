@@ -72,6 +72,8 @@ IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][] and
 
 HTML files **MUST** start with the [HTML 5 doctype][html5]: `<!DOCTYPE html>`
 
+HTML files **MUST** include the [IE Compatibility meta tag][x-ua]: `<meta http-equiv="X-UA-Compatible" content="IE=Edge">`
+
 HTML files **SHOULD** be formatted consistently with either two-space or four-space indents. 
 
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s HTML recommendations.
@@ -182,3 +184,4 @@ An [Ideas On Purpose][iop] project.
 [phpcs]: http://www.squizlabs.com/php-codesniffer
 
 [-_]: https://www.mattcutts.com/blog/dashes-vs-underscores/
+[x-ua]: http://stackoverflow.com/a/6771584/503463
