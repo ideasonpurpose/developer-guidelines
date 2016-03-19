@@ -112,7 +112,7 @@ Use of CSS preprocessors is **OPTIONAL**. IOP **RECOMMENDS** Sass over Less.
 
 PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPress projects **MAY** choose to use  [WordPress coding standards][wpcode] instead.
 
-PHP files **SHOULD** be indented using four-space indents.
+PHP files **SHOULD** be indented using four-space indents. ([PSR-2][])
 
 ## File naming
 
