@@ -72,7 +72,9 @@ IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][] and
 
 HTML files **MUST** start with the [HTML 5 doctype][html5]: `<!DOCTYPE html>`
 
-HTML files **MUST** include the [IE Compatibility meta tag][x-ua]: `<meta http-equiv="X-UA-Compatible" content="IE=Edge">`
+HTML files **MUST** include the [IE Compatibility meta tag][x-ua] as the first meta tag in the `<head>` section, before any conditional comments. References: [1](http://stackoverflow.com/questions/6156639/x-ua-compatible-is-set-to-ie-edge-but-it-still-doesnt-stop-compatibility-mode/9624500#9624500), [2](https://github.com/h5bp/html5-boilerplate/issues/378)
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 HTML files **SHOULD** be formatted consistently with either two-space or four-space indents. 
 
