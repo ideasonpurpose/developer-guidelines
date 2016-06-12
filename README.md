@@ -31,7 +31,6 @@ The rules below loosely adhere to common requirement keywords as defined in [RFC
 
 Ideas On Purpose **MUST** be the author of all code and assets. We're all contributors and will be credited where appropriate. 
 
-
 ## Git and Source Code Management
 Git is **REQUIRED** for source code management and version control. Developers will be granted access to a project repository on GitHub.
 
@@ -91,7 +90,7 @@ JavaScript code **SHOULD** be indented using two-space indents.
 
 JavaScript code **SHOULD** use semicolons.
 
-JavaScript code **SHOULD** run in [strict mode][] and **SHOULD NOT** display errors, warnings or messages in the console.
+JavaScript code **SHOULD** run in [strict mode][], production code **SHOULD NOT** display errors, warnings or messages in the console.
 
 **OPTIONALLY** use a transpiler like [Babel][] with ES2015+ syntax.
 
