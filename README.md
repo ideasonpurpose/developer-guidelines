@@ -130,6 +130,10 @@ Public-facing HTML pages **MUST** include page-specific metadata. [IOP’s recom
 
 Public-facing projects **SHOULD** collect analytics data. IOP will provide code snippets on a per-project basis. 
 
+Projects **MUST** use the newest available tracking code snippets, always request fresh snippets. (e.g. [Google Analytics][]) 
+
+Third-party tracking code **SHOULD NOT** be modified, unless explicitly necessary. 
+
 
 
 ## Configuration and dotfiles
@@ -186,3 +190,5 @@ An [Ideas On Purpose][iop] project.
 
 [-_]: https://www.mattcutts.com/blog/dashes-vs-underscores/
 [x-ua]: http://stackoverflow.com/a/6771584/503463
+
+[google analytics]: https://support.google.com/analytics/answer/1008080?hl=en
