@@ -104,7 +104,7 @@ CSS code **SHOULD** follow the [GitHub CSS coding style guide][github-css].
 
 CSS files **SHOULD** be indented using two-space indents.
 
-Use of CSS preprocessors is **OPTIONAL**. IOP **RECOMMENDS** Sass over Less. 
+Use of CSS preprocessors is **OPTIONAL**. IOP **RECOMMENDS** [Sass][] over [Less][]. 
 
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s CSS recommendations or [Idiomatic CSS][].
 
@@ -172,6 +172,8 @@ An [Ideas On Purpose][iop] project.
 [codeguide-css]: http://codeguide.co/#css
 [html5]: http://www.w3.org/TR/html5/syntax.html#the-doctype
 [Idiomatic CSS]: https://github.com/necolas/idiomatic-css
+[sass]: http://sass-lang.com/
+[less]: http://lesscss.org/
 
 [iop metadata]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/metadata/iop_html_metadata.html
 [ogp]: http://opengraphprotocol.org/
