@@ -11,7 +11,7 @@
 .svn
 Thumbs.db
 
-# wp core (as of 4.3.1)
+# wp core (as of 4.4)
 /db-config.php
 /index.php
 /license.txt
@@ -35,6 +35,7 @@ Thumbs.db
 /wp-content/themes/twentythirteen
 /wp-content/themes/twentyfourteen
 /wp-content/themes/twentyfifteen
+/wp-content/themes/twentysixteen
 /wp-cron.php
 /wp-feed.php
 /wp-includes
