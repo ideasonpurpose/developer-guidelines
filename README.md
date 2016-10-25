@@ -49,7 +49,7 @@ Files **MUST NOT** mix tabs and spaces.
 
 Files **SHOULD** use UTF-8 encoding.
 
-Files **SHOULD** use Unix (LF) line endings.
+Files **SHOULD** use Unix (LF) line endings. (Windows developers, set [`git config --global core.autocrlf true`](https://help.github.com/articles/dealing-with-line-endings/#platform-windows))
 
 Trailing whitespace **SHOULD** be removed. (exceptions: Markdown, YAML)
 
