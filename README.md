@@ -38,8 +38,6 @@ Code **SHOULD** be pushed frequently, ideally daily. There's no point in pushing
 
 Commits **SHOULD** be granular. Smaller commits are easier to understand and debug. 
 
-Compiled code and build output **SHOULD** be committed separately from other code changes. 
-
 Libraries and dependencies **SHOULD NOT** be committed to the project repository. Repositories **SHOULD** use a `.gitignore` file to separate third-party code from our development tree. External resources **SHOULD** be canonical unless explicitly forked.
 
 
