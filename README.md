@@ -82,15 +82,11 @@ Image tags **MUST** include alt-text attributes.
 
 ## JavaScript
 
-JavaScript code **SHOULD** follow the "mostly resonable" [Airbnb JavaScript Style Guide][airbnb5].
-
-JavaScript code **SHOULD** be indented using two-space indents.
-
-JavaScript code **SHOULD** use semicolons.
+JavaScript source code **SHOULD** be formatted with [Prettier][].
 
 JavaScript code **SHOULD** run in [strict mode][], production code **SHOULD NOT** display errors, warnings or messages in the console.
 
-**OPTIONALLY** use a transpiler like [Babel][] with ES2015+ syntax.
+JavaScript source code using ES2015+ syntax **SHOULD** be transpiled with [Babel][] for distribution.
 
 **OPTIONALLY** use [JSDoc][] compatible doc blocks.
 
@@ -157,6 +153,7 @@ An [Ideas On Purpose][iop] project.
 [2119]: http://www.ietf.org/rfc/rfc2119.txt
 
 [babel]: http://babeljs.io
+[prettier]: https://github.com/prettier/prettier
 [airbnb5]: https://github.com/airbnb/javascript/tree/master/es5
 [airbnb6]: https://github.com/airbnb/javascript
 [strict mode]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode
