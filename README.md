@@ -29,7 +29,7 @@ The rules below loosely adhere to common requirement keywords as defined in [RFC
 
 ## Authorship
 
-Ideas On Purpose **MUST** be the author of all code and assets. We're all contributors and will be credited where appropriate. 
+Ideas On Purpose **MUST** be the author of all code and assets. We're all contributors and will be individually credited where appropriate. 
 
 ## Git and Source Code Management
 Git is **REQUIRED** for source code management and version control. Developers will be granted access to a project repository on GitHub.
@@ -64,14 +64,15 @@ IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][] and
 
 
 
-
 ## HTML
 
 HTML files **MUST** start with the [HTML 5 doctype][html5]: `<!DOCTYPE html>`
 
 HTML files **MUST** include the [IE Compatibility meta tag][x-ua] as the first meta tag in the `<head>` section, before any conditional comments. References: [1](http://stackoverflow.com/questions/6156639/x-ua-compatible-is-set-to-ie-edge-but-it-still-doesnt-stop-compatibility-mode/9624500#9624500), [2](https://github.com/h5bp/html5-boilerplate/issues/378)
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+```
 
 HTML files **SHOULD** be formatted consistently with either two-space or four-space indents. 
 
@@ -94,11 +95,13 @@ JavaScript source code using ES2015+ syntax **SHOULD** be transpiled with [Babel
 
 ## CSS & SCSS
 
-CSS code **SHOULD** follow the [GitHub CSS coding style guide][github-css].
+IOP **RECOMMENDS** authoring stylesheets with the [Sass][] CSS preprocessor.
 
-CSS files **SHOULD** be indented using two-space indents.
+Stylesheet source files **SHOULD** follow the [GitHub CSS coding style guide][github-css].
 
-Use of CSS preprocessors is **OPTIONAL**. IOP **RECOMMENDS** [Sass][] over [Less][]. 
+Stylesheet source files **SHOULD** be indented using two-space indents.
+
+**OPTIONALLY** use our [CSScomb][] dotfile.
 
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s CSS recommendations or [Idiomatic CSS][].
 
@@ -120,7 +123,7 @@ Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` 
 
 ## Metadata, Analytics and Social Sharing
 
-Public-facing HTML pages **MUST** include page-specific metadata. [IOP’s recommended metadata block][iop metadata] assigns page properties for the [Open Graph Protocol][ogp] and [Twitter Cards][].
+Public-facing HTML pages **MUST** include page-specific metadata. [IOP’s recommended metadata block][iop metadata] assigns page properties for the [Open Graph Protocol][ogp] and [Twitter Cards][]. WordPress projects should use the [SEO Framework][] plugin.
 
 Public-facing projects **SHOULD** collect analytics data. IOP will provide code snippets on a per-project basis. 
 
@@ -168,11 +171,12 @@ An [Ideas On Purpose][iop] project.
 [html5]: http://www.w3.org/TR/html5/syntax.html#the-doctype
 [Idiomatic CSS]: https://github.com/necolas/idiomatic-css
 [sass]: http://sass-lang.com/
-[less]: http://lesscss.org/
+[csscomb]: http://csscomb.com/
 
 [iop metadata]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/metadata/iop_html_metadata.html
 [ogp]: http://opengraphprotocol.org/
 [twitter cards]: https://dev.twitter.com/cards/overview
+[seo framework]: https://theseoframework.com/
 
 [isobar]: http://isobar-idev.github.io/code-standards/#css_css_best_practices
 [tmw]: http://tech.tmw.co.uk/code/TMW-frontend-guidelines
