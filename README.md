@@ -76,6 +76,8 @@ HTML files **MUST** include the [IE Compatibility meta tag][x-ua] as the first m
 
 HTML files **SHOULD** be formatted consistently with either two-space or four-space indents. 
 
+Deliverable HTML files **MUST** use the full `.html` file extension, not `.htm`.
+
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s HTML recommendations.
 
 Image tags **MUST** include alt-text attributes.
@@ -119,6 +121,8 @@ IOP **RECOMMENDS** descriptive, self-documenting filenames.
 Filenames containing multiple words **SHOULD** be joined with [dashes (hyphens), not underscores][-_].
 
 Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` not `bldg-1.jpg`)
+
+
 
 
 ## Metadata, Analytics and Social Sharing
