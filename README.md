@@ -114,6 +114,17 @@ PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPres
 
 PHP files **SHOULD** be indented using four-space indents. ([PSR-2][])
 
+
+## WordPress
+
+A theme's `styles.css` file **MUST** be based on [IOP's boilerplate metadata block][wp-boilerplate].
+
+Theme directories **MUST** be prefixed with `iop-`. E.g. `iop-client-theme`.
+
+Namespaced PHP files **SHOULD** use the `ideasonpurpose` namespace.
+
+
+
 ## File naming
 
 IOP **RECOMMENDS** descriptive, self-documenting filenames.
@@ -181,6 +192,8 @@ An [Ideas On Purpose][iop] project.
 [ogp]: http://opengraphprotocol.org/
 [twitter cards]: https://dev.twitter.com/cards/overview
 [seo framework]: https://theseoframework.com/
+
+[wp-boilerplate]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/wordpress/theme-boilerplate/styles.css
 
 [isobar]: http://isobar-idev.github.io/code-standards/#css_css_best_practices
 [tmw]: http://tech.tmw.co.uk/code/TMW-frontend-guidelines
