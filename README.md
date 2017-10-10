@@ -114,6 +114,8 @@ PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPres
 
 PHP files **SHOULD** be indented using four-space indents. ([PSR-2][])
 
+PHP code **SHOULD** be developed with [`error_reporting`][error_reporting] set to `E_ALL` and **SHOULD NOT** display any errors or warnings. IOP **RECOMMENDS** using [Xdebug][] for additional backtraces.
+
 
 ## WordPress
 
@@ -123,6 +125,7 @@ Theme directories **MUST** be prefixed with `iop-`. E.g. `iop-client-theme`.
 
 Namespaced PHP files **SHOULD** use the `ideasonpurpose` namespace.
 
+WordPress development servers **SHOULD** enable [`WP_DEBUG`][wp_debug], `WP_DEBUG_LOG` and `WP_DEBUG_DISPLAY`.
 
 
 ## File naming
@@ -193,7 +196,10 @@ An [Ideas On Purpose][iop] project.
 [twitter cards]: https://dev.twitter.com/cards/overview
 [seo framework]: https://theseoframework.com/
 
+[error_reporting]: http://php.net/manual/en/function.error-reporting.php
+[xdebug]: https://xdebug.org/
 [wp-boilerplate]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/wordpress/theme-boilerplate/styles.css
+[wp_debug]: https://codex.wordpress.org/WP_DEBUG
 
 [isobar]: http://isobar-idev.github.io/code-standards/#css_css_best_practices
 [tmw]: http://tech.tmw.co.uk/code/TMW-frontend-guidelines
