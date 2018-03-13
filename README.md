@@ -40,6 +40,10 @@ Commits **SHOULD** be granular. Smaller commits are easier to understand and deb
 
 Libraries and dependencies **SHOULD NOT** be committed to the project repository. Repositories **SHOULD** use a `.gitignore` file to separate third-party code from our development tree. External resources **SHOULD** be canonical unless explicitly forked.
 
+Versioned files **SHOULD** follow the [SemVer][] semantic versioning standard.
+
+SemVer versioned files **SHOULD** begin at version `0.1.0`, incrementing patch and minor as appropriate. When a project is launched, versioned files should be bumped to `1.0.0`. re: [Semver Faq][0.1.0]
+
 
 ## Coding Standards
 
@@ -169,6 +173,9 @@ This repository contains several dotfiles. Don't miss them just because they're 
 An [Ideas On Purpose][iop] project.
 
 [iop]: http://ideasonpurpose.com
+
+[semver]: https://semver.org
+[0.1.0]: https://semver.org/#faq
 
 [editorconfig]: https://github.com/ideasonpurpose/developer-guidelines/blob/master/.editorconfig
 [2119]: http://www.ietf.org/rfc/rfc2119.txt
