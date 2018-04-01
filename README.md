@@ -6,7 +6,7 @@ This document defines a loose, common technical baseline for web projects produc
 
 Very few of these rules are mandatory and we're open to discussion. 
 
-Technology advances very quickly, especially on the web. This is a living document and we welcome suggestions, criticisms and alternatives. Please share your ideas and help make it easier for all of us to make great work together.
+Technology advances very quickly, especially on the web. This is a living document and we welcome suggestions, criticisms and alternatives. Please share your ideas and help make it easier for all of us to make [great work][iop work] together.
 
 
 ### Definitions and Language
@@ -91,9 +91,9 @@ Image tags **MUST** include alt-text attributes.
 
 JavaScript source code **SHOULD** be formatted with [Prettier][].
 
-JavaScript code **SHOULD** run in [strict mode][], production code **SHOULD NOT** display errors, warnings or messages in the console.
-
 JavaScript source code using ES2015+ syntax **SHOULD** be transpiled with [Babel][] for distribution.
+
+JavaScript code **SHOULD** run in [strict mode][], production code **SHOULD NOT** display errors, warnings or messages in the console.
 
 **OPTIONALLY** use [JSDoc][] compatible doc blocks.
 
@@ -159,6 +159,9 @@ Third-party tracking code **SHOULD NOT** be modified, unless explicitly necessar
 
 This repository contains several dotfiles. Don't miss them just because they're invisible in the Finder. 
 
+## Work with us
+
+Interested in working with us? [We're hiring!][iop jobs]
 
 ## Thanks
 @mdo's [Code Guide][], [Isobar Front-end Code Standards][isobar] and TMW Unlimited's [Front-End Dev guidelines][tmw] were a great help in putting this together, thanks for making those public.
@@ -172,7 +175,10 @@ This repository contains several dotfiles. Don't miss them just because they're 
 [![iop_logo](https://cloud.githubusercontent.com/assets/8320/9443542/944a8bce-4a4f-11e5-9d2f-54999b1687d5.png)][iop]  
 An [Ideas On Purpose][iop] project.
 
+
+[iop work]: https://www.ideasonpurpose.com/work/
 [iop]: http://ideasonpurpose.com
+[iop jobs]: https://www.ideasonpurpose.com/jobs/
 
 [semver]: https://semver.org
 [0.1.0]: https://semver.org/#faq
