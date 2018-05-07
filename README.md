@@ -82,6 +82,8 @@ HTML files **SHOULD** be formatted consistently with either two-space or four-sp
 
 Deliverable HTML files **MUST** use the full `.html` file extension, not `.htm`.
 
+All asset references **MUST** be case-sensitive. 
+
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s HTML recommendations.
 
 Image tags **MUST** include alt-text attributes.
@@ -135,6 +137,8 @@ WordPress development servers **SHOULD** enable [`WP_DEBUG`][wp_debug], `WP_DEBU
 ## File naming
 
 IOP **RECOMMENDS** descriptive, self-documenting filenames.
+
+Filenames **SHOULD** be cased logically and consistently. (eg. `file1.jpg` & `file2.jpg`; not `File1.JPG` & `FILE2.jpg`)
 
 Filenames containing multiple words **SHOULD** be joined with [dashes (hyphens), not underscores][-_].
 
