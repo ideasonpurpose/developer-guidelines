@@ -55,6 +55,8 @@ Files **SHOULD** use UTF-8 encoding.
 
 Files **SHOULD** use Unix (LF) line endings. (Windows developers, set [`git config --global core.autocrlf true`](https://help.github.com/articles/dealing-with-line-endings/#platform-windows))
 
+Files **MUST** end with a newline. ([ref](https://stackoverflow.com/a/729795))
+
 Trailing whitespace **SHOULD** be removed. (exceptions: Markdown, YAML)
 
 Lines more than 80 characters long **SHOULD** be avoided. ([js][crockford80], [php][php80], [python][pep8])
