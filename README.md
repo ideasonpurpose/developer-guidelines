@@ -178,7 +178,8 @@ Interested in working with us? [We're hiring!][iop jobs]
 
 ## About
 
-[![iop_logo](https://cloud.githubusercontent.com/assets/8320/9443542/944a8bce-4a4f-11e5-9d2f-54999b1687d5.png)][iop]  
+[![iop_logo](https://avatars1.githubusercontent.com/u/2059022?s=100&v=4)][iop]  
+
 An [Ideas On Purpose][iop] project.
 
 
