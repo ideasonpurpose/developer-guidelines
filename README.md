@@ -80,13 +80,17 @@ HTML files **MUST** include the [IE Compatibility meta tag][x-ua] as the first m
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
 
-HTML files **SHOULD** be formatted consistently with either two-space or four-space indents. 
+HTML files **SHOULD** be formatted consistently with two-space (soft) indents. 
 
 Deliverable HTML files **MUST** use the full `.html` file extension, not `.htm`.
 
 All asset references **MUST** be case-sensitive. 
 
 **OPTIONALLY** adhere to [Code Guide][codeguide-html]'s HTML recommendations.
+
+
+**OPTIONALLY** format HTML files with [Prettier][].
+
 
 Image tags **MUST** include alt-text attributes.
 
@@ -170,7 +174,11 @@ This repository contains several dotfiles. Don't miss them just because they're 
 Interested in working with us? [We're hiring!][iop jobs]
 
 ## Thanks
-@mdo's [Code Guide][], [Isobar Front-end Code Standards][isobar] and TMW Unlimited's [Front-End Dev guidelines][tmw] were a great help in putting this together, thanks for making those public.
+These coding standards documents were a great towards putting this together, thanks to their authors for making them public. 
+* @mdo's [Code Guide][]
+* Isobar Front-end Code Standards][isobar]
+* TMW Unlimited's [Front-End Dev guidelines][tmw]
+* [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
 ## License
 
