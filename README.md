@@ -26,6 +26,19 @@ The rules below loosely adhere to common requirement keywords as defined in [RFC
 
 </dl>
 
+---
+
+
+
+##  Confidentiality, Staging & Development Environments
+
+IOP’s work is created under strict confidentiality agreements with our clients. Projects under development **MUST NOT** be publicly accessible. Staging, preview and development environments **MUST** be password protected. 
+
+Images and examples from projects under development **MUST NOT** be shared to social networks without explicit written permission.
+
+
+
+
 
 ## Authorship
 
@@ -176,7 +189,7 @@ Interested in working with us? [We're hiring!][iop jobs]
 ## Thanks
 These coding standards documents were a great towards putting this together, thanks to their authors for making them public. 
 * @mdo's [Code Guide][]
-* Isobar Front-end Code Standards][isobar]
+* Isobar's [Front-end Code Standards][isobar]
 * TMW Unlimited's [Front-End Dev guidelines][tmw]
 * [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
