@@ -57,6 +57,8 @@ Versioned files **SHOULD** follow the [SemVer][] semantic versioning standard.
 
 SemVer versioned files **SHOULD** begin at version `0.1.0`, incrementing patch and minor as appropriate. When a project is launched, versioned files should be bumped to `1.0.0`. ([Semver Faq][0.1.0])
 
+Git **SHOULD** be configured to push tags with commits. Set `push.followTags` to `true` in your git config.
+
 
 ## Coding Standards
 
